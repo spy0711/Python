@@ -33,7 +33,7 @@ from math import *  # extra maths fn. (module)
 # print(floor(4.7))
 print(ceil(4.7))
 print(sqrt(36))  # Square root
-entry = input("Entry kariye na!:-")
+entry = input("Entre Something!:-")
 print("Aree bhai kehna kya chahte ho? \n'" + entry + "' kya mtlb hai iska?")
 n1 = input("Ab Number likhiye...aur hn whole no. hi likhiyega")
 n2 = input("Ek baar aur haha...decimal bhi likh skte ho ab whole jruri nhi...")
