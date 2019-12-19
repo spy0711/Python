@@ -1,8 +1,8 @@
-Character_name = "ShubhamSpy"
+Character_name = "SpyingSpy"
 print(Character_name)
 is_island = False
 print("2. Hi," + Character_name)
-Character_name = "SpyShubham"
+Character_name = "SpySpying"
 print("3. Hi,\n" + Character_name)
 print("4." + Character_name.upper())
 print("5." + Character_name.lower())
@@ -12,7 +12,7 @@ print(Character_name.upper().islower())
 print(Character_name.upper().isupper())
 print(len(Character_name))
 print("6." + Character_name[0])  # string me 1st letter is 0
-print(Character_name[9])
+print(Character_name[8])
 print(Character_name[3])
 print(Character_name.index("y"))
 print(Character_name.index("S"))
