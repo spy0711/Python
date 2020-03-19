@@ -17,4 +17,4 @@ elif y == "*":
 elif y == "/":
     print(x / z)
 else:
-    print("illogical Input!")
+    print("illogical Input!!")
