@@ -1,5 +1,4 @@
-g = "Wrong guess,"
-h = "you have"
+h = "Wrong guess, you have"
 i = 5
 j = "guesses"
 k = "left"
