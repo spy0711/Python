@@ -5,7 +5,7 @@ i = 5
 j = " guesses"
 k = "left"
 l = "."
-print("You have", i, j+l)
+print("You have ", i, j+l)
 x = int(input("Guess your first no.\n"))
 
 while(i>0):
