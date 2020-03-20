@@ -1,4 +1,3 @@
-n=18
 g = "Wrong guess,"
 h = "you have"
 i = 5
