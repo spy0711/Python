@@ -13,7 +13,7 @@ while(i>0):
         i = i - 1
         y = i
         if y == 0:
-            print("Game Over")
+            print("Game Over!")
         elif y== 1:
             print(g, h, i, "guess", k+l)
             x = int(input("Now guess a smaller no.\n"))
