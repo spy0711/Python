@@ -4,8 +4,8 @@ i = 5
 j = "guesses"
 k = "left"
 l = "."
-print("You have", i, j+l)
-x = int(input("Guess your first no.\n"))
+print("Welcome to the game 'Guess the No.', a game created by Harry Bhai.\nThe value you choose should be an integer\nYou have a total of", i, j+l)
+x = int(input("Guess your first no.:\n"))
 
 while(i>0):
 
@@ -14,23 +14,23 @@ while(i>0):
         y = i
         if y == 0:
             print("Game Over!")
-        elif y== 1:
+        elif y == 1:
             print(g, h, i, "guess", k+l)
-            x = int(input("Now guess a smaller no.\n"))
+            x = int(input("Now guess a larger no.!\n"))
         else:
             print(g, h, i, j, k+l)
-            x = int(input("Now guess a larger no.\n"))
+            x = int(input("Now guess a larger no.!\n"))
     elif x > 18:
         i = i - 1
         y = i
         if y == 0:
             print("Game Over")
-        elif y== 1:
+        elif y == 1:
             print(g, h, i, "Guess", k+l)
-            x = int(input("Now guess a smaller no.\n"))
+            x = int(input("Now guess a smaller no.!\n"))
         else:
             print(g, h, i, j, k+l)
-            x = int(input("Now guess a smaller no.\n"))
+            x = int(input("Now guess a smaller no.!\n"))
     else:
         print("Congratulations your guess is correct!!")
         break
