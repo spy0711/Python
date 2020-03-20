@@ -14,10 +14,10 @@ while(i>0):
         if y == 0:
             print("Game Over!")
         elif y == 1:
-            print(g, h, i, "guess", k+l)
+            print(h, i, "guess", k+l)
             x = int(input("Now guess a larger no.!\n"))
         else:
-            print(g, h, i, j, k+l)
+            print(h, i, j, k+l)
             x = int(input("Now guess a larger no.!\n"))
     elif x > 18:
         i = i - 1
@@ -25,10 +25,10 @@ while(i>0):
         if y == 0:
             print("Game Over!")
         elif y == 1:
-            print(g, h, i, "Guess", k+l)
+            print(h, i, "Guess", k+l)
             x = int(input("Now guess a smaller no.!\n"))
         else:
-            print(g, h, i, j, k+l)
+            print(h, i, j, k+l)
             x = int(input("Now guess a smaller no.!\n"))
     else:
         print("Congratulations your guess is correct!!")
