@@ -15,7 +15,7 @@ while True:
                 n -= 1
             break
     except Exception as q:
-        print("Trying True or False type boolean")
+        print("Trying True or False type boolean...")
         b = b.capitalize()
 
     try:
