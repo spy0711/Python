@@ -1,8 +1,8 @@
-n = int(input("Entra a no.:\n"))
-b = input("Entre a boolean:\n")
+n = int(input("Enter a no.:\n"))
+b = input("Enter a boolean:\n")
 i=1
 try:
-    if b = "True" or "1" :
+    if b == "True" or "1" :
         while i<n:
             print("*"*i)
             i += 1
