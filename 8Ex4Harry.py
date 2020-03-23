@@ -1,24 +1,35 @@
 n = int(input("Enter a no.:\n"))
-b = input("Enter a boolean:\n")
+while True:
+    b = input("Enter a boolean:\n")
+    i = 1
+    try:
+        b = int(b)
+        if b == 1:
+            while i < n+1:
+                print("*"*i)
+                i += 1
+            break
+        elif b == 0:
+            while n > 0:
+                print("*"*n)
+                n -= 1
+            break
+    except Exception as q:
+        print("Trying True or False type boolean")
+        b = b.capitalize()
 
-
-print(b)
- if b == "True" or "1":
-     b = True
-     print("its true")
- elif b == "False" or "0":
-     b = False
-     print("its false")
-i = 1
-try:
-    if b == True:
-        while i < n+1:
-            print("f*"*i)
-            i += 1
-    elif b == False:
-        while n > 0:
-            print("s*"*n)
-            n -= 1
-except Exception as e:
-    print("Error:",e,"\nTry using True with Capital 'T' or use '1' instead")
-
+    try:
+        if b == "True":
+            while i < n+1:
+                print("*"*i)
+                i += 1
+            break
+        elif b == "False":
+            while n > 0:
+                print("*"*n)
+                n -= 1
+            break
+    except Exception as e:
+        print("Error:",e,"\nTry using True with Capital 'T' or use '1' instead")
+    print("Error, Try again!")
+    continue
