@@ -1,6 +1,6 @@
 n = int(input("Enter a no.:\n"))
 while True:
-    b = input("Enter a boolean:\n")
+    b = input("Enter a boolean:\n") #it'll work for 0,1,True,False or even without capital t and f i.e. true or false
     i = 1
     try:
         b = int(b)
