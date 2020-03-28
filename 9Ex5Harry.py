@@ -18,7 +18,7 @@ def  we(a):
         h3.close()
         return h3o
 c = int(input("1 to Read, 2 for writing\n"))
-b = input("input Exercise or Diet\n")
+b = input("Input Exercise or Diet\n")
 a = int(input("1 for Harry, 2 for Rohan, 3 for Hammad\n"))
 if c == 1:
     print(we(a))
