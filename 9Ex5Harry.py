@@ -17,7 +17,7 @@ def  we(a):
         h3o = h3.read()
         h3.close()
         return h3o
-def  wer(d, y):
+def  wer(d):
     if d == 1:
         f1 = open("99Harry" + b + ".txt", "a")
         f1.append(getdate, y)
