@@ -1,7 +1,7 @@
 def getdate():
     import datetime
     return datetime.datetime.now()
-def  we(a):
+def we(a):
     if a == 1:
         h1 = open("99Harry" + b + ".txt")
         h1o = h1.read()
@@ -17,7 +17,7 @@ def  we(a):
         h3o = h3.read()
         h3.close()
         return h3o
-def  wer(a, d):
+def wer(a, d):
     if a == 1:
         f1 = open("99Harry" + b + ".txt", "a")
         f1.append(getdate, d)
@@ -37,4 +37,4 @@ d = input("if you're writing then write it, otherwise hit enter\n")
 if c == 1:
     print(we(a))
 elif c == 2:
-    print(wer(d))
+    print(wer(a, d))
