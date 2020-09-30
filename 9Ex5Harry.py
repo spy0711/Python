@@ -1,5 +1,5 @@
 def getdate():
-    import datetime
+    from datetime import datetime
     return datetime.datetime.now()
 def we(a):
     if a == 1:
